@@ -4,7 +4,7 @@ var playerHeight = 100;
 var playerWidth = 5;
 
 // CREATION OF THE FIELD-----------------------------------------------------------
-function terrain(){
+function field(){
     
     // .GETCONTEXT('2D') CREATE A 2D CONTEXT WHERE YOU CAN DRAW
     var context = canvas.getContext('2d');
@@ -142,7 +142,7 @@ function ballMove(){
 
 function play(){
 
-    terrain();
+    field();
     ballMove();
     computerMove();
 
